@@ -5,10 +5,10 @@
 
 class Book {
 private:
-    std::string title;
-    std::string author;
-    int year;
-    int pages;
+    std::string title_;
+    std::string author_;
+    int year_;
+    int pages_;
 
 public:
     Book(std::string bookTitle, std::string bookAuthor, int bookYear, int bookPages);
