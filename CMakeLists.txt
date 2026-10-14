@@ -14,8 +14,7 @@ project ("LibraryCatalog")
 # Включите подпроекты.
 add_executable(LibraryCatalog
     src/LibraryCatalog.cpp
-    src/LibraryCatalog.h
     src/Book.cpp
+    src/Book.h
 )
-
 set_property(TARGET LibraryCatalog PROPERTY CXX_STANDARD 17)

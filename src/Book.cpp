@@ -1,5 +1,5 @@
 
-#include "LibraryCatalog.h"
+#include "Book.h"
 #include <iostream>
 
 Book::Book(std::string bookTitle, std::string bookAuthor, int bookYear, int bookPages)
