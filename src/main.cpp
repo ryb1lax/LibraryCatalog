@@ -5,7 +5,6 @@
 #include <limits>
 
 int main() {
-
     std::vector<Book> books;
 
     books.emplace_back("Metro 2033", "Dmitry Glukhovsky", 2005, 544);
